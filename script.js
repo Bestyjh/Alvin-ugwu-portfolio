@@ -47,14 +47,11 @@ downloadButtons.forEach(button => {
         button.addEventListener('click', (e) => {
             e.preventDefault();
             
-            // Show alert - in production, replace with actual CV file
-            alert('CV download functionality will be connected to your actual CV file. Please upload your CV PDF and update the download link in the code.');
-            
-            // Example of how to implement actual download:
-            // const link = document.createElement('a');
-            // link.href = 'path/to/your/cv.pdf';
-            // link.download = 'Alvin_Ugwu_CV.pdf';
-            // link.click();
+            // Download CV
+            const link = document.createElement('a');
+            link.href = 'documents/alvin-ugwu-cv.pdf';  // Update this to match your filename
+            link.download = 'Alvin_Ugwu_CV.pdf';
+            link.click();
         });
     }
 });
