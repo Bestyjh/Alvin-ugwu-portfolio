@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvin Uchenna Ugwu | PhD Candidate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Alvin Ugwu</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="education.html" class="nav-link">Education</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="publications.html" class="nav-link">Publications</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active'); this.classList.toggle('active');">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Alvin Uchenna</span>
+                    <span class="title-line accent-text">Ugwu</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <p class="subtitle-main">PhD Candidate | Curriculum Studies and Instructional Design</p>
+                    <p class="subtitle-location">Western University, Canada</p>
+                </div>
+                
+                <div class="research-tags">
+                    <span class="tag">Education for Sustainability</span>
+                    <span class="tag">Curriculum & Pedagogy</span>
+                    <span class="tag">Experiential Learning</span>
+                    <span class="tag">Qualitative Research</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                    <a href="#" class="btn btn-secondary" id="downloadCV" onclick="event.preventDefault(); const link = document.createElement('a'); link.href = 'documents/alvin-ugwu-cv.pdf'; link.download = 'Alvin_Ugwu_CV.pdf'; document.body.appendChild(link); link.click(); document.body.removeChild(link); return false;">Download CV</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <p>Profile Image</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Bio Section -->
+    <section class="quick-bio">
+        <div class="container">
+            <div class="bio-grid">
+                <div class="bio-text">
+                    <h2 class="section-title">Advancing Education for a Sustainable Future</h2>
+                    <p class="lead-text">
+                        As a dedicated educator and researcher, I'm passionate about advancing Education for Sustainability 
+                        through innovative curriculum design and experiential learning approaches that create transformative 
+                        learning experiences.
+                    </p>
+                    <a href="about.html" class="text-link">Read full bio →</a>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Years PhD Research</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Degrees Earned</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">ESD</div>
+                        <div class="stat-label">Research Focus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Highlights -->
+    <section class="research-preview">
+        <div class="container">
+            <h2 class="section-title">Current Research</h2>
+            <div class="research-card">
+                <div class="research-meta">
+                    <span class="research-type">PhD Dissertation</span>
+                    <span class="research-status">Ongoing - Year 4</span>
+                </div>
+                <h3 class="research-title">Implementing Education for Sustainable Development in Ontario K–8 School Classrooms</h3>
+                <p class="research-description">
+                    Exploring how Education for Sustainable Development (ESD) is integrated into elementary school curricula, 
+                    examining pedagogical approaches, teacher perspectives, and student learning outcomes in the context of 
+                    Ontario's educational framework.
+                </p>
+                <div class="research-footer">
+                    <span class="supervisor">Supervisor: Dr. Isha DeCoito</span>
+                    <a href="research.html" class="text-link">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Alvin Uchenna Ugwu</h3>
+                    <p>PhD Candidate, Western University</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/alvin-ugwu-422b7b171/" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+                    <a href="/cdn-cgi/l/email-protection#7d1c081a0a083d080a12531e1c" class="social-link">Email</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alvin Uchenna Ugwu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
