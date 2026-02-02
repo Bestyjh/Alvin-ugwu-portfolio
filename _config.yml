@@ -1,0 +1,9 @@
+title: "Alvin Uchenna Ugwu"
+description: "Academic Portfolio"
+baseurl: "" 
+url: "" 
+markdown: kramdown
+
+collections:
+  pages:
+    output: true
