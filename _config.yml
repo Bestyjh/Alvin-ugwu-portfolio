@@ -1,9 +1,7 @@
 title: "Alvin Uchenna Ugwu"
 description: "Academic Portfolio"
-baseurl: "" 
-url: "" 
-markdown: kramdown
 
-collections:
-  pages:
-    output: true
+url: "https://www.alvinuchennaugwu.com"
+baseurl: ""   # keep empty because you're using a root-level custom domain
+
+markdown: kramdown
