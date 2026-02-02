@@ -2,9 +2,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>{{ page.title }} | {{ site.title }}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+
+<!-- Open Graph (Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/images/profile.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{{ site.url }}/images/profile.jpg">
+
+<!-- Favicon -->
+<link rel="icon" href="/images/favicon.png" type="image/png">
+
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+<!-- Stylesheet -->
+<link rel="stylesheet" href="/assets/css/styles.css">
