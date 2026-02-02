@@ -1,3 +1,9 @@
+---
+layout: default
+title: Publications & Documents
+permalink: /publications/
+---
+
 <!-- Page Header -->
 <section class="page-header">
     <div class="container">
@@ -35,7 +41,7 @@
                 </div>
             </div>
 
-            <a href="documents/alvin-ugwu-cv.pdf" download class="btn btn-primary">
+            <a href="{{ '/documents/alvin-ugwu-cv.pdf' | relative_url }}" download class="btn btn-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                     <polyline points="7 10 12 15 17 10"></polyline>
@@ -147,7 +153,7 @@
                 </div>
 
                 <div class="doc-footer" style="margin-top: 1.5rem;">
-                    <a href="documents/teachers-attitudes-esd-ontario.pdf" download class="btn btn-primary">
+                    <a href="{{ '/documents/teachers-attitudes-esd-ontario.pdf' | relative_url }}" download class="btn btn-primary">
                         Download PDF
                     </a>
                 </div>
