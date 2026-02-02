@@ -1,3 +1,8 @@
+---
+layout: default
+title: Education
+permalink: /education/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
