@@ -5,3 +5,8 @@ url: "https://www.alvinuchennaugwu.com"
 baseurl: ""
 
 markdown: kramdown
+
+theme: minima
+
+plugins:
+  - jekyll-include-cache
