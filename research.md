@@ -1,3 +1,8 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
