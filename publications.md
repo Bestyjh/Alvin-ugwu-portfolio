@@ -1,3 +1,8 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
