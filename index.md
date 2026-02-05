@@ -90,7 +90,7 @@ permalink: /
       </div>
 
       <h3 class="research-title">
-        Implementing Education for Sustainable Development in Ontario K–8 School Classrooms
+       Investigating the Impact of Teachers’ Attitudes and Beliefs on the Implementation of Education for Sustainable Development in Ontario K-8 Schools 
       </h3>
 
       <p class="research-description">
