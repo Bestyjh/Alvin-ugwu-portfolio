@@ -49,7 +49,6 @@ permalink: /education/
                             <h4>Research Topic</h4>
                             <p class="research-topic">Investigating the Impact of Teachers’ Attitudes and Beliefs on the Implementation of Education for Sustainable Development in Ontario K-8 Schools </p>
                         </div>
-<!-- NEW SECTION ADDED HERE --> <div class="detail-section"> <h4>Honors & Recognition</h4> <p>Graduated <strong>Summa Cum Laude</strong> – College of Humanities</p> <a href="https://share.google/T1YEN47bUyoe0rvZk" target="_blank" rel="noopener" class="thesis-link">View Announcement →</a> </div> <!-- END NEW SECTION -->
 
                         <div class="detail-section">
                             <h4>Supervisor</h4>
@@ -93,7 +92,7 @@ permalink: /education/
                             <p class="research-topic">Pre-service Teachers’ Experiences of Learning about Education for Sustainable Development: A Case Study at a South African University</p>
                             <a href="https://ukzn-dspace.ukzn.ac.za/handle/10413/19799" target="_blank" rel="noopener" class="thesis-link">View Thesis →</a>
                         </div>
-
+<!-- NEW SECTION ADDED HERE --> <div class="detail-section"> <h4>Honors & Recognition</h4> <p>Graduated <strong>Summa Cum Laude</strong> – College of Humanities</p> <a href="https://share.google/T1YEN47bUyoe0rvZk" target="_blank" rel="noopener" class="thesis-link">View Announcement →</a> </div> <!-- END NEW SECTION -->
                         <div class="detail-section">
                             <h4>Supervisor</h4>
                             <p>Dr. Asheena Singh-Pillay (<a href="mailto:singhpillaya@ukzn.ac.za">singhpillaya@ukzn.ac.za</a>)</p>
