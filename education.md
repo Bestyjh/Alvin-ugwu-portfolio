@@ -47,7 +47,7 @@ permalink: /education/
 
                         <div class="detail-section">
                             <h4>Research Topic</h4>
-                            <p class="research-topic">Implementing Education for Sustainable Development in Ontario K–8 School Classrooms</p>
+                            <p class="research-topic">Investigating the Impact of Teachers’ Attitudes and Beliefs on the Implementation of Education for Sustainable Development in Ontario K-8 Schools </p>
                         </div>
 
                         <div class="detail-section">
