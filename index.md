@@ -94,9 +94,7 @@ permalink: /
       </h3>
 
       <p class="research-description">
-        Exploring how Education for Sustainable Development (ESD) is integrated into elementary school curricula, 
-        examining pedagogical approaches, teacher perspectives, and student learning outcomes in the context of 
-        Ontario's educational framework.
+        Investigated how teachers’ attitudes and beliefs influence the way Education for Sustainable Development is taught in Ontario Kindergarten to Grade 8 schools. The study focused on how teachers’ views affect classroom practices related to caring for the environment, responsible use of resources, and social responsibility. Findings highlighted the role of teacher mindset in shaping student learning and supporting sustainable thinking from an early age.
       </p>
 
       <div class="research-footer">
